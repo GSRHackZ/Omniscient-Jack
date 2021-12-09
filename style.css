@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+    color: white;
+    background-color: rgb(243, 59, 89);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ctrl_panel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title_img_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    opacity: 75%;
+}
+
+.title_img_container img{
+    width: 200px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -moz-window-dragging: none;
+    -webkit-user-drag: none;
+}
+
+.title_img_container p{
+    margin-top: -10px;
+    line-height: 30px;
+}
+.inp{
+    border: 1px solid white;
+    background: transparent;
+    width: 200px;
+    height: 20px;
+    padding: 5px;
+    padding-left: 5px;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+    transition: .5s;
+}
+
+.inp::placeholder{
+    color: white;
+    opacity: 75%;
+}
+
+.inp:focus{
+    outline: 1px solid red;
+    width: 250px;
+    transition: .5s;
+}
+
+.hidden{
+    width: 0px;
+    height: 0px;
+    opacity: 0%;
+    cursor: default;
+}
+
+#ask{
+    width: 150px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    height: 30px;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#ask:hover{
+    width: 200px;
+    height: 30px;
+    transition: .5s;
+}
+
+#answer{
+    font-size: 18px;
+    margin-top: 50px;
+    line-height: 25px;
+    opacity: 75%;
+    transition: .5s;
+}
