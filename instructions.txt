@@ -1,0 +1,12 @@
+Here are the steps on how to actually use it in order to trick the people around you.
+
+1. Type in the question in the question input.
+2. When you go to beg him, type in \ 
+3. When you type \ in the input, it will go to a hidden input where you can type the actual answer, and it will automatically start writing 
+the begging phrase in the original input.
+
+4. Click the answer the question button and It will display the answer.
+
+* If step 2 wasn't followed, which it won't by people who don't know the trick, it will write out a random remark.
+
+** I hope you enjoy using this tool to prank your friends!! 🤗
